@@ -1,84 +1,83 @@
 @font-face {
-    font-family: 'cheltenham';
-    src: url('/fonts/cheltenham/cheltenham-normal-200.woff2');
-    font-style: normal;
-    font-weight: 200;
-  }
-  
-  @font-face {
-    font-family: 'cheltenham';
-    src: url('/fonts/cheltenham/cheltenham-normal-400.woff2');
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'cheltenham';
-    src: url('/fonts/cheltenham/cheltenham-normal-500.woff2');
-    font-style: normal;
-    font-weight: 500;
-  }
-  
-  @font-face {
-    font-family: 'cheltenham-small';
-    src: url('/fonts/cheltenham/cheltenham-small-normal-400.woff2');
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'cheltenham';
-    src: url('/fonts/cheltenham/cheltenham-italic-700.woff2');
-    font-style: italic;
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin/franklin-normal-300.woff2');
-    font-style: normal;
-    font-weight: 300;
-  }
-  
-  @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin/franklin-normal-500.woff2');
-    font-style: normal;
-    font-weight: 500;
-  }
-  
-  @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin/franklin-normal-600.woff2');
-    font-style: normal;
-    font-weight: 600;
-  }
-  
-  @font-face {
-    font-family: 'nyt-franklin';
-    src: url('/fonts/franklin/franklin-normal-700.woff2');
-    font-style: normal;
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: 'imperial';
-    src: url('/fonts/imperial/imperial-italic-400.woff2');
-    font-style: italic;
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'imperial';
-    src: url('/fonts/imperial/imperial-normal-400.woff2');
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'imperial';
-    src: url('/fonts/imperial/imperial-normal-700.woff2');
-    font-style: normal;
-    font-weight: 700;
-  }
-  
+  font-family: 'cheltenham';
+  src: url('/fonts/cheltenham/cheltenham-normal-200.woff2');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'cheltenham';
+  src: url('/fonts/cheltenham/cheltenham-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'cheltenham';
+  src: url('/fonts/cheltenham/cheltenham-normal-500.woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'cheltenham-small';
+  src: url('/fonts/cheltenham/cheltenham-small-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'cheltenham';
+  src: url('/fonts/cheltenham/cheltenham-italic-700.woff2');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin/franklin-normal-300.woff2');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin/franklin-normal-500.woff2');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin/franklin-normal-600.woff2');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src: url('/fonts/franklin/franklin-normal-700.woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'imperial';
+  src: url('/fonts/imperial/imperial-italic-400.woff2');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'imperial';
+  src: url('/fonts/imperial/imperial-normal-400.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'imperial';
+  src: url('/fonts/imperial/imperial-normal-700.woff2');
+  font-style: normal;
+  font-weight: 700;
+}

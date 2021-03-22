@@ -7,8 +7,17 @@
 }
 
 .flex-justify-sb {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.margin-navbar {
+  margin-left: 10px;
+}
+
+.margin-menu {
+  margin-left: 30px;
 }
 
 .navbar {
@@ -25,26 +34,40 @@
 }
 
 nav img {
-    height: 100%;
+  height: 100%;
 }
 
-button {
-    border-radius: 3px;
-    cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-color: #567b95;
-    border: 1px solid #326891;
-    color: #fff;
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    padding: 11px 12px 8px;
-    text-transform: uppercase;
-    margin-left: 14px;
+.button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-button:hover {
-    background-color: #326891;
+.button:hover {
+  background-color: #326891;
+}
+
+h3 {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: black;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+  color: #000;
 }
