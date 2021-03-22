@@ -20,6 +20,16 @@
   margin-left: 30px;
 }
 
+.nyt-f {  
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+}
+
+.nyt-i {  
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-style: normal;
+}
+
 .navbar {
   width: 100vw;
   min-width: 1032px;
@@ -28,6 +38,7 @@
   height: 42px;
   position: fixed;
   top: 0;
+  background-color: #fff;
 }
 
 .nav-container {
@@ -35,13 +46,12 @@
 }
 
 nav img {
-  height: 100%;
+  height: 90%;
 }
 
 .button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   white-space: nowrap;
   vertical-align: middle;
   background-color: #567b95;
@@ -59,9 +69,22 @@ nav img {
   background-color: #326891;
 }
 
+h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #121212;
+}
+
+.text-7-15-20 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 h3 {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -71,6 +94,10 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .nav-link:visited {
@@ -91,15 +118,6 @@ a {
   margin-top: 100px;
 }
 
-h1 {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  color: #121212;
-}
-
 .img-header {
   width: 1200px;
   margin: 20px auto;
@@ -111,7 +129,6 @@ h1 {
 
 figcaption {
   max-width: 900px;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -122,4 +139,72 @@ figcaption {
   font-size: 12px;
   line-height: 18px;
   color: #888;
+}
+
+.plain-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.info {
+  margin: 50px 0px 20px 0px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.sign-up {
+  width: 85%;
+  float: left;  
+}
+
+.sign-up-button-container {
+  width: 15%;
+  float: right;  
+}
+
+.sign-up-button {
+  margin: 0 auto;
+  width: auto;
+  padding: 6px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #000;
+  cursor: pointer;
+}
+
+.sign-up-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.sign-up-tittle {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.sign-up-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;  
+}
+
+.soft-black {
+  color: #333;
+}
+
+.text-content {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sign-up-container {
+  height: 50px;
+}
+
+p {
+  margin: 15px 0;
 }
