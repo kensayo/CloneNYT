@@ -24,9 +24,10 @@
   width: 100vw;
   min-width: 1032px;
   border-bottom: 1px solid #e2e2e2;
-  padding: 4px 250px;
+  padding: 4px 150px;
   height: 42px;
   position: fixed;
+  top: 0;
 }
 
 .nav-container {
@@ -65,9 +66,60 @@ h3 {
   font-size: 14px;
   line-height: 19px;
   color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-link:visited {
   text-decoration: none;
   color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.margin-top-main {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #121212;
+}
+
+.img-header {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.img-article {
+  max-width: 100%;
+}
+
+figcaption {
+  max-width: 900px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #666;
+}
+
+.quote {
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
 }

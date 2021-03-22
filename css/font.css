@@ -1,33 +1,33 @@
 @font-face {
-  font-family: 'cheltenham';
+  font-family: 'nyt-cheltenham';
   src: url('/fonts/cheltenham/cheltenham-normal-200.woff2');
   font-style: normal;
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'cheltenham';
+  font-family: 'nyt-cheltenham';
   src: url('/fonts/cheltenham/cheltenham-normal-400.woff2');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'cheltenham';
+  font-family: 'nyt-cheltenham';
   src: url('/fonts/cheltenham/cheltenham-normal-500.woff2');
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'cheltenham-small';
+  font-family: 'nyt-cheltenham-small';
   src: url('/fonts/cheltenham/cheltenham-small-normal-400.woff2');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'cheltenham';
+  font-family: 'nyt-cheltenham';
   src: url('/fonts/cheltenham/cheltenham-italic-700.woff2');
   font-style: italic;
   font-weight: 700;
@@ -62,21 +62,21 @@
 }
 
 @font-face {
-  font-family: 'imperial';
+  font-family: 'nyt-imperial';
   src: url('/fonts/imperial/imperial-italic-400.woff2');
   font-style: italic;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'imperial';
+  font-family: 'nyt-imperial';
   src: url('/fonts/imperial/imperial-normal-400.woff2');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'imperial';
+  font-family: 'nyt-imperial';
   src: url('/fonts/imperial/imperial-normal-700.woff2');
   font-style: normal;
   font-weight: 700;
