@@ -20,12 +20,12 @@
   margin-left: 30px;
 }
 
-.nyt-f {  
+.nyt-f {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-style: normal;
 }
 
-.nyt-i {  
+.nyt-i {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-style: normal;
 }
@@ -148,18 +148,18 @@ figcaption {
 }
 
 .info {
-  margin: 50px 0px 20px 0px;
+  margin: 50px 0 20px 0;
   border-bottom: 1px solid #e2e2e2;
 }
 
 .sign-up {
   width: 85%;
-  float: left;  
+  float: left;
 }
 
 .sign-up-button-container {
   width: 15%;
-  float: right;  
+  float: right;
 }
 
 .sign-up-button {
@@ -187,7 +187,7 @@ figcaption {
   font-style: italic;
   font-weight: 400;
   font-size: 17px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .soft-black {
@@ -207,4 +207,8 @@ figcaption {
 
 p {
   margin: 15px 0;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
