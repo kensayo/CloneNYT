@@ -20,6 +20,10 @@
   margin-left: 30px;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .nyt-f {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-style: normal;
@@ -31,7 +35,7 @@
 }
 
 .nyt-c {
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-style: normal;
 }
 
@@ -64,7 +68,6 @@ nav img {
   color: #fff;
   font-size: 11px;
   line-height: 11px;
-  font-weight: 700;
   padding: 11px 12px 8px;
   text-transform: uppercase;
   text-decoration: none;
@@ -83,26 +86,43 @@ h1 {
   color: #121212;
 }
 
-.text-7-15-20 {
+.fw-700 {
   font-weight: 700;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.text-14-14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.text-15-20 {
   font-size: 15px;
   line-height: 20px;
 }
 
-.text-7-20-24 {
-  font-weight: 700;
+.text-20-24 {
   font-size: 20px;
-  list-style: 24px;
+  line-height: 24px;
 }
 
-.text-4-14-18 {
-  font-weight: 400;
+.text-14-18 {
   font-size: 14px;
   line-height: 18px;
 }
 
-.text-3-14-17 {
-  font-weight: 300;
+.text-14-17 {
   font-size: 14px;
   line-height: 17px;
 }
@@ -114,7 +134,6 @@ h1 {
 }
 
 h3 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 19px;
   text-decoration: none;
@@ -166,7 +185,6 @@ figcaption {
 }
 
 .plain-text {
-  font-weight: 500;
   font-size: 13px;
   line-height: 16px;
 }
@@ -217,7 +235,11 @@ figcaption {
   color: #333;
 }
 
-.gray {  
+.light-blue {
+  color: #326891;
+}
+
+.gray {
   color: #666;
 }
 
@@ -240,10 +262,6 @@ p {
   margin: 15px 0;
 }
 
-.fw-700 {
-  font-weight: 700;
-}
-
 .inflation-container {
   width: 945px;
   margin: 0 auto;
@@ -253,8 +271,8 @@ p {
   width: 100%;
   display: grid;
   background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
-  grid-template-columns: repeat(4,228px);
-  grid-template-rows: repeat(4,137px);
+  grid-template-columns: repeat(4, 228px);
+  grid-template-rows: repeat(4, 137px);
   gap: 8px;
   background-size: cover;
 }
@@ -270,9 +288,29 @@ p {
   border-bottom: 1px solid #000;
 }
 
-.img-footer {  
+.img-footer {
   font-size: 14px;
   line-height: 18px;
   font-weight: 500;
   margin-bottom: 50px;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.editors-aside {
+  right: 10vw;
+  width: 210px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.editors-tittle {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
 }
