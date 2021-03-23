@@ -127,6 +127,11 @@ h1 {
   line-height: 17px;
 }
 
+.text-20-30 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .tittle-grid {
   letter-spacing: 0.05rem;
   font-size: 11px;
@@ -168,6 +173,11 @@ ul {
 .img-header {
   width: 1200px;
   margin: 20px auto;
+}
+
+.img-article-container {
+  width: 720px;
+  margin: 50px auto;
 }
 
 .img-article {
