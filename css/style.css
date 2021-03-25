@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
 .margin-navbar {
   margin-left: 10px;
 }
@@ -608,4 +613,38 @@ ul li a:hover {
 
 .text-underline:hover {
   text-decoration: underline;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: start;
+  border-top: 1px solid #e2e2e2;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.icon-container {
+  margin: 20px 15px 10px 0;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #eee;
+}
+
+.icon-container-n-b {
+  margin: 20px 15px 10px 0;
+  width: 27px;
+  height: 27px;
+}
+
+.icon-container:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.footer-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
