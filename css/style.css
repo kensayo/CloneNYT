@@ -1,0 +1,692 @@
+@import "font.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-justify-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-navbar {
+  margin-left: 10px;
+}
+
+.margin-menu {
+  margin-left: 30px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.nyt-f {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+}
+
+.nyt-i {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-style: normal;
+}
+
+.nyt-c {
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-style: normal;
+}
+
+.navbar {
+  width: 100vw;
+  min-width: 1032px;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 4px 150px;
+  height: 42px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+
+.nav-container {
+  height: 34px;
+}
+
+nav img {
+  height: 90%;
+}
+
+.button {
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #326891;
+}
+
+h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.text-14-14 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.text-14-16 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.text-11-21 {
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.text-15-20 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.text-16-22 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text-16-20 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-16-15 {
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.text-18-22 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text-11-16 {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.text-11-11 {
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.text-12-16 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-10-12 {
+  font-size: 10px;
+  line-height: 12px;
+  text-align: right;
+  padding: 3px 0;
+}
+
+.text-20-24 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.text-18-18 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.text-13-15 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.text-14-18 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-14-17 {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.text-20-30 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tittle-grid {
+  letter-spacing: 0.05rem;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.margin-top-main {
+  margin-top: 100px;
+}
+
+.img-header {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.img-article-container {
+  width: 720px;
+  margin: 50px auto;
+}
+
+.img-article {
+  max-width: 100%;
+}
+
+figcaption {
+  max-width: 900px;
+}
+
+.quote {
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+}
+
+.plain-text {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.info {
+  margin: 50px 0 20px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.sign-up {
+  width: 85%;
+}
+
+.sign-up-button-container {
+  width: 15%;
+}
+
+.sign-up-button {
+  margin: 0 auto;
+  width: auto;
+  padding: 6px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign-up-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.sign-up-tittle {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.sign-up-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.soft-black {
+  color: #333;
+}
+
+.light-blue {
+  color: #326891;
+}
+
+.gray {
+  color: #666;
+}
+
+.light-gray {
+  color: #999;
+}
+
+.black {
+  color: #000;
+}
+
+.dark-black {
+  color: #121212;
+}
+
+.text-content {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sign-up-container {
+  height: 50px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+.inflation-container {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.grid-inflation {
+  width: 100%;
+  display: grid;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  grid-template-columns: repeat(4, 228px);
+  grid-template-rows: repeat(4, 137px);
+  gap: 8px;
+  background-size: cover;
+}
+
+.grid-inflation-block {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.line-footer-inflation {
+  margin: 30px 0 20px 0;
+  width: 60px;
+  border-bottom: 1px solid #000;
+}
+
+.line-gray {
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.img-footer {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.editors-aside {
+  right: 10vw;
+  width: 210px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.editors-tittle {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+}
+
+.editors-aside-img {
+  height: 75px;
+  width: 75px;
+}
+
+.editors-aside-container {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.editors-link {
+  padding-left: 10px;
+}
+
+.editors-link:hover {
+  text-decoration: underline;
+}
+
+.editors-link:visited {
+  color: #333;
+}
+
+.invite-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-links {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left-container {
+  width: 72%;
+}
+
+.footer-right-container {
+  width: 28%;
+  padding-left: 30px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-tittle-container {
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+.footer-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.most-tittle-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.square-container {
+  border: 1px solid #e2e2e2;
+  padding: 20px;
+}
+
+.footer-img-suggested {
+  height: 82px;
+  width: 82px;
+}
+
+.footer-info-container {
+  border-top: 1px solid #000;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.footer-plus-icon {
+  height: 35px;
+  width: 35px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  top: 20px;
+  right: 20px;
+  justify-content: center;
+}
+
+.footer-plus-icon:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.fa-plus:hover {
+  color: #fff;
+}
+
+.suggested-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 160px;
+}
+
+.grid-space-container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.link-astromy:hover {
+  color: #666;
+}
+
+footer {
+  width: 1200px;
+  margin: 20px auto;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 10px;
+}
+
+.footer-line {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  height: 4px;
+  margin-top: 0;
+  width: 100%;
+}
+
+.single-row {
+  grid-template-rows: none;
+}
+
+.footer-header {
+  height: 44px;
+  width: 100%;
+  margin: 5px 0 10px 0;
+}
+
+.footer-img {
+  height: 28px;
+}
+
+.nav-footer-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links-container {
+  width: 100%;
+}
+
+.left-border {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 20px;
+}
+
+.link-tittle {
+  padding-bottom: 15px;
+}
+
+ul li a {
+  color: #000;
+}
+
+ul li {
+  padding-bottom: 6px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-icon {
+  height: 13px;
+  width: 13px;
+  margin-right: 8px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.margin-b {
+  margin-bottom: 10px;
+}
+
+.nav-buttom {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}
+
+.text-underline:hover {
+  text-decoration: underline;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: start;
+  border-top: 1px solid #e2e2e2;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.icon-container {
+  margin: 20px 15px 10px 0;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #eee;
+}
+
+.icon-container-n-b {
+  margin: 20px 15px 10px 0;
+  width: 27px;
+  height: 27px;
+}
+
+.icon-container:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.footer-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0 60px 0;
+}
+
+.button-container {
+  width: 55%;
+  height: 36px;
+}
+
+.icon-container-footer {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.button-comments {
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 13px;
+  line-height: 24px;
+  width: 100%;
+  height: 36px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.button-comments:hover {
+  background-color: #326891;
+}
+
+.comments-icon {
+  margin: 0 15px 0 0;
+}
