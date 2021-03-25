@@ -2,7 +2,6 @@
 Microverse HTML and CSS Week 1 Project
 
     HTML & CSS Week 1 project to practice positioning and floating elements.
-   ![screenshot](./img/screenShot.png)
 
 ## Built With
 
