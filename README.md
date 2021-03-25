@@ -43,10 +43,6 @@ Most Operative Systems have the .html file extension associated to open with you
 In the cloned folder access to
     _index.html_
 
-### Prerequisites
-Have a compatible web browser that supports HTML5 and CSS3 in order to correctly display the website.
-A text editor in order to view and edit code. Popular text editors include VSCode and Notepad++.
-
 
 ## 👤 Kenny Ortega
 
