@@ -512,6 +512,10 @@ p a {
   color: #fff;
 }
 
+.fa-plus:hover {
+  color: #fff;
+}
+
 .suggested-content {
   display: flex;
   flex-direction: column;
