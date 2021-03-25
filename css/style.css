@@ -605,3 +605,7 @@ ul li a:hover {
   margin: 20px auto;
   padding-bottom: 10px;
 }
+
+.text-underline:hover {
+  text-decoration: underline;
+}
