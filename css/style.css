@@ -597,3 +597,11 @@ ul li a:hover {
 .margin-b {
   margin-bottom: 10px;
 }
+
+.nav-buttom {  
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+}

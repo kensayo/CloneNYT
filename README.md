@@ -1,4 +1,4 @@
-# NYT-copyArticle
+# NYT-wk1
 Microverse HTML and CSS Week 1 Project
 
     HTML & CSS Week 1 project to practice positioning and floating elements.
