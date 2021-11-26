@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# NYT-wk1
+# New York Times Clone
 Microverse HTML and CSS Week 1 Project
 
     HTML & CSS Week 1 project to practice positioning and floating elements.
